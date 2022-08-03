@@ -16,16 +16,14 @@ function App(){
                     <div className="routes">
                         <Routes>
                             <Route exact path="/" element={ <HomePage /> } />
-                            <Route exact path="/exchanges" element={ <Exchanges /> } />
                             <Route exact path="/cryptocurrencies" element={ <Cryptocurrencies /> } />
                             <Route exact path="/cryptodetails/:coinId" element={ <Cryptodetails /> } />
-                            <Route exact path="/news" element={ <News /> } />
-                            
+                            <Route exact path="/news" element={ <News /> } />                        
                         </Routes>
                     </div>
                 </Layout>
            
-                <div className="footer">
+                {/* <div className="footer">
                     <Typography.Title level={ 5 } style={{ color: '#fff', textAlign: 'center' }}>
                         Cryptoverse <br />
                         All rights reserverd
@@ -36,7 +34,7 @@ function App(){
                         <Link to="/exchanges">Exchanges</Link>
                         <Link to="/news">News</Link>
                     </Space>
-                </div>
+                </div> */}
             </div>
             
         </div>
